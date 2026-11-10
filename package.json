@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "��#\u0000 \u0000c\u0000a\u0000d\u0000a\u0000s\u0000t\u0000r\u0000o\u0000-\u0000p\u0000r\u0000o\u0000d\u0000u\u0000t\u0000o\u0000s\u0000\r\u0000 \u0000",
   "dependencies": {
     "express": "^5.3.0"
   },
@@ -18,9 +20,15 @@
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
   },
-  "scripts": {
-  "dev": "tsx watch src/index.ts",
-  "build": "tsc",
-  "start": "node dist/index.js"
-}
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavo1925/cadastro-produtos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gustavo1925/cadastro-produtos/issues"
+  },
+  "homepage": "https://github.com/gustavo1925/cadastro-produtos#readme"
 }
