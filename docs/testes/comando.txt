@@ -1,0 +1,3 @@
+Comando utilizado para executar os testes:
+
+npx tsx src/testeCliente.ts
